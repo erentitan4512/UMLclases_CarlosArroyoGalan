@@ -1,0 +1,14 @@
+@startuml
+
+class Event{
+}
+
+class Conference{
+}
+
+class BoardMeeting{
+}
+
+Conference --^ Event
+BoardMeeting --^ Event
+@enduml
