@@ -2,13 +2,19 @@
 
 class Event{
 }
-
 class Conference{
 }
-
 class BoardMeeting{
 }
+class Member{
+}
+class BoardMember{
+}
+class Location{
+}
+class Person{
+}
 
-Conference --^ Event
-BoardMeeting --^ Event
+BoardMember --^Member
+Member --^ Person
 @enduml
